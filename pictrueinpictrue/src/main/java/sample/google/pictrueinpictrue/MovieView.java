@@ -102,6 +102,7 @@ public class MovieView extends RelativeLayout{
                                         (int) (height / aspectRatio), MeasureSpec.EXACTLY),
                                 heightMeasureSpec);
                     } else {
+
                         super.onMeasure(
                                 widthMeasureSpec,
                                 MeasureSpec.makeMeasureSpec(
