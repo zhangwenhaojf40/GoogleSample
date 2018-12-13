@@ -1,0 +1,65 @@
+<?xml version="1.0" encoding="utf-8"?>
+<RelativeLayout xmlns:android="http://schemas.android.com/apk/res/android"
+    xmlns:tools="http://schemas.android.com/tools"
+    android:layout_width="match_parent"
+    android:layout_height="match_parent"
+    android:padding="16dp"
+    tools:context=".MainActivity">
+
+    <TextView
+        android:layout_alignBottom="@+id/spinner"
+        android:id="@+id/labe"
+        android:layout_alignParentTop="true"
+        android:gravity="center_vertical"
+        android:layout_width="wrap_content"
+        android:layout_height="wrap_content"
+        android:text="Interpolator:" />
+
+    <Spinner
+        android:id="@+id/spinner"
+        android:layout_width="wrap_content"
+        android:layout_height="wrap_content"
+
+        android:layout_toRightOf="@+id/labe">
+
+    </Spinner>
+
+    <TextView
+        android:id="@+id/tv_duration"
+        android:layout_width="wrap_content"
+        android:layout_height="wrap_content"
+        android:layout_below="@+id/spinner"
+        android:layout_marginTop="10dp"
+        tools:text="aaaaaaaa" />
+
+    <SeekBar
+        android:id="@+id/seekBar"
+        android:layout_width="match_parent"
+        android:layout_height="wrap_content"
+        android:layout_below="@+id/tv_duration"
+        android:layout_marginTop="3dp"
+        android:max="5000" />
+    <TextView
+        android:layout_alignBottom="@+id/check_box"
+        android:gravity="center_vertical"
+        android:id="@+id/color_labe"
+        android:layout_below="@+id/seekBar"
+        android:layout_width="wrap_content"
+        android:text="Color Change:"
+        android:layout_height="wrap_content" />
+    <CheckBox
+        android:id="@+id/check_box"
+        android:layout_width="wrap_content"
+        android:layout_toRightOf="@+id/color_labe"
+        android:layout_below="@+id/seekBar"
+        android:layout_marginLeft="5dp"
+        android:layout_height="wrap_content" />
+    <View
+        android:id="@+id/square"
+        android:layout_width="match_parent"
+        android:layout_height="match_parent"
+        android:layout_below="@+id/color_labe"
+        android:layout_margin="10dp"
+        android:background="#9c27b0"
+        />
+</RelativeLayout>

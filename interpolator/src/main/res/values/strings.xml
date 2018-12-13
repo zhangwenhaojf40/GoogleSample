@@ -1,0 +1,16 @@
+<resources>
+    <string name="app_name">interpolator</string>
+    <string name="duration">Duration : %1$d ms </string>
+
+    <string-array name="interpolator_names" >
+        <item>加速动画</item>
+        <item>减速动画</item>
+        <item>先加速在减速</item>
+        <item>弹簧</item>
+        <item>更形象的弹簧效果</item>
+        <item>回弹跳跃几段</item>
+        <item>循环，动画循环一定次数</item>
+        <item>线性均匀</item>
+        <item>加速执行，结束之后回弹</item>
+    </string-array>
+</resources>

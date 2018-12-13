@@ -10,6 +10,7 @@
             <option value="$PROJECT_DIR$" />
             <option value="$PROJECT_DIR$/app" />
             <option value="$PROJECT_DIR$/basicnetworking" />
+            <option value="$PROJECT_DIR$/interpolator" />
             <option value="$PROJECT_DIR$/pictrueinpictrue" />
           </set>
         </option>
