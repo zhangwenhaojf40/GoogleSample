@@ -30,10 +30,6 @@ public class MainActivity extends AppCompatActivity {
         binding.recyclerView.setAdapter(myAdapter);
         ProductViewModel viewModel = new ProductViewModel(this);
         myAdapter.setList(viewModel.getProducts());
-      /*  binding.search.setOnClickListener(v -> {
-            List<Product> productsCondition = viewModel.getProductsCondition(binding.condition.getText().toString());
-            myAdapter.setList(productsCondition);
-        });*/
         //布局随数据动态改变
         binding.test.setOnClickListener(v -> {
             myAdapter.getList().get(0).setName(binding.testTV.getText().toString());
