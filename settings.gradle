@@ -1,1 +1,1 @@
-include ':app', ':basicnetworking', ':pictrueinpictrue', ':interpolator'
+include ':app', ':basicnetworking', ':pictrueinpictrue', ':interpolator', ':databinding'
