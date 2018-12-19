@@ -3,6 +3,7 @@ package sample.google.interpolator;
 import android.animation.ArgbEvaluator;
 import android.animation.ObjectAnimator;
 import android.animation.ValueAnimator;
+import android.content.Intent;
 import android.graphics.Color;
 import android.graphics.Path;
 import android.support.v7.app.AppCompatActivity;
@@ -120,6 +121,9 @@ public class MainActivity extends AppCompatActivity {
         switch (item.getItemId()) {
             case R.id.test:
                 startAnimtion();
+                break;
+            case R.id.scroller:
+                startActivity(new Intent(this,ScrollerActivity.class));
                 break;
         }
         return true;
