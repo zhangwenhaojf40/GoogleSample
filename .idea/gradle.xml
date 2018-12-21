@@ -12,6 +12,7 @@
             <option value="$PROJECT_DIR$/basicnetworking" />
             <option value="$PROJECT_DIR$/databinding" />
             <option value="$PROJECT_DIR$/interpolator" />
+            <option value="$PROJECT_DIR$/livedata_mvvm" />
             <option value="$PROJECT_DIR$/pictrueinpictrue" />
           </set>
         </option>
